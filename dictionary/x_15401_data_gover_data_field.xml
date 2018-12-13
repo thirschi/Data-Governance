@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Data Field" max_length="40" name="x_15401_data_gover_data_field" type="collection">
+        <element choice="1" label="Classification" max_length="40" name="classification" type="choice">
+            <choice/>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Requestable" max_length="40" name="requestable" type="boolean"/>
+        <element label="Standard Name" max_length="40" name="standard_name" type="string"/>
+    </element>
+</database>
