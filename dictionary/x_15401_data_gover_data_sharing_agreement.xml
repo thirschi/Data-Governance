@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_15401_data_gover_data_sharing" label="Data Sharing Agreement" max_length="40" name="x_15401_data_gover_data_sharing_agreement" type="collection"/>
+    <element extends="x_15401_data_gover_data_sharing" label="Data Sharing Agreement" max_length="40" name="x_15401_data_gover_data_sharing_agreement" type="collection">
+        <element label="Community" max_length="32" name="community" reference="x_15401_data_gover_community" type="reference"/>
+        <index name="index">
+            <element name="community"/>
+        </index>
+    </element>
 </database>

@@ -4,15 +4,20 @@
         <element choice="1" label="Classification" max_length="40" name="classification" type="choice">
             <choice/>
         </element>
-        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Data Field" max_length="4000" name="data_field" reference="x_15401_data_gover_data_field" type="glide_list"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
         <element label="Group Access" max_length="32" name="group_access" reference="sys_user_group" type="reference"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
         <element label="Provisioning instructions" max_length="40" name="provisioning_instructions" type="string"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice/>
         </element>
         <index name="index">
             <element name="group_access"/>
+        </index>
+        <index name="index2">
+            <element name="policy"/>
         </index>
     </element>
 </database>

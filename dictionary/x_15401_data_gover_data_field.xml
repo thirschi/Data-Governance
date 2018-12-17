@@ -3,8 +3,17 @@
         <element choice="1" label="Classification" max_length="40" name="classification" type="choice">
             <choice/>
         </element>
+        <element label="Community" max_length="32" name="community" reference="x_15401_data_gover_community" type="reference"/>
         <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
         <element label="Requestable" max_length="40" name="requestable" type="boolean"/>
         <element label="Standard Name" max_length="40" name="standard_name" type="string"/>
+        <index name="index">
+            <element name="community"/>
+        </index>
+        <index name="index2">
+            <element name="policy"/>
+        </index>
     </element>
 </database>
