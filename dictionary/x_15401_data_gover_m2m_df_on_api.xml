@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Data Field On API" max_length="40" name="x_15401_data_gover_m2m_df_on_api" type="collection">
+        <element label="API" max_length="32" name="api" reference="x_15401_data_gover_api" type="reference"/>
+        <element label="Data Field" max_length="32" name="data_field" reference="x_15401_data_gover_data_field" type="reference"/>
+        <index name="index">
+            <element name="api"/>
+        </index>
+        <index name="index2">
+            <element name="data_field"/>
+        </index>
+    </element>
+</database>

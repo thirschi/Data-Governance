@@ -6,5 +6,8 @@
         <element label="Data Field" max_length="4000" name="data_field" reference="x_15401_data_gover_data_field" type="glide_list"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Policy" max_length="8000" name="policy" type="html"/>
+        <index name="index">
+            <element name="community"/>
+        </index>
     </element>
 </database>

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Data Sharing" max_length="40" name="x_15401_data_gover_data_sharing" type="collection">
-        <element label="Additional Data Field" max_length="4000" name="additional_data_field" reference="x_15401_data_gover_data_field" type="glide_list"/>
         <element label="Application Name" max_length="40" name="application_name" type="string"/>
-        <element label="Required Data Field" max_length="4000" name="data_field" reference="x_15401_data_gover_data_field" type="glide_list"/>
         <element label="Description of Need" max_length="4000" name="description_of_need" type="string"/>
         <element label="Description of Project" max_length="4000" name="description_of_project" type="string"/>
         <element label="Development Group" max_length="32" name="development_group" reference="sys_user_group" type="reference"/>
         <element label="Name" max_length="80" name="name" type="string"/>
-        <element label="Policy" max_length="4000" name="policy" reference="x_15401_data_gover_policy" type="glide_list"/>
         <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <element label="Scope of Project" max_length="4000" name="scope_of_project" type="string"/>
         <element label="Sponsor" max_length="32" name="sponsor" reference="sys_user" type="reference"/>
