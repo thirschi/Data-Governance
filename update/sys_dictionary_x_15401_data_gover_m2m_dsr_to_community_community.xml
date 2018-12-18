@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="scope_of_project" table="x_15401_data_gover_data_sharing">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="community" table="x_15401_data_gover_m2m_dsr_to_community">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Scope of Project</column_label>
+        <column_label>Community</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,20 +22,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>scope_of_project</element>
+        <element>community</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="HTML">html</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>4000</max_length>
-        <name>x_15401_data_gover_data_sharing</name>
+        <max_length>32</max_length>
+        <name>x_15401_data_gover_m2m_dsr_to_community</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_15401_data_gover_community">x_15401_data_gover_community</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>thirschi</sys_created_by>
-        <sys_created_on>2018-12-17 15:16:53</sys_created_on>
-        <sys_id>c694def30f92230055498f8ce1050e2a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Scope of Project</sys_name>
+        <sys_created_on>2018-12-18 01:10:00</sys_created_on>
+        <sys_id>164ff7770f96230055498f8ce1050e00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Community</sys_name>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
-        <sys_update_name>sys_dictionary_x_15401_data_gover_data_sharing_scope_of_project</sys_update_name>
+        <sys_update_name>sys_dictionary_x_15401_data_gover_m2m_dsr_to_community_community</sys_update_name>
         <sys_updated_by>thirschi</sys_updated_by>
-        <sys_updated_on>2018-12-18 00:59:11</sys_updated_on>
+        <sys_updated_on>2018-12-18 01:10:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
