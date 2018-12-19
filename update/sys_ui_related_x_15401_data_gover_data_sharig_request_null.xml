@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_15401_data_gover_data_sharig_request" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Data Sharing Request - Default view" name="x_15401_data_gover_data_sharig_request" related_list="NULL" sys_domain="global" view="Default view">4b747d100fe2630055498f8ce1050e10</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_15401_data_gover_m2m_required_df_to_dsr.data_sharing_request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:20:32</sys_created_on>
+            <sys_id>4b747d100fe2630055498f8ce1050e11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:20:32</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Data Sharing Request - Default view" name="x_15401_data_gover_data_sharig_request" related_list="NULL" sys_domain="global" view="Default view">4b747d100fe2630055498f8ce1050e10</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_15401_data_gover_m2m_additional_df_to_dsr.data_sharing_request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:20:32</sys_created_on>
+            <sys_id>c3747d100fe2630055498f8ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:20:32</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Data Sharing Request - Default view" name="x_15401_data_gover_data_sharig_request" related_list="NULL" sys_domain="global" view="Default view">4b747d100fe2630055498f8ce1050e10</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_15401_data_gover_m2m_dsr_to_dsa.data_sharing_request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:20:32</sys_created_on>
+            <sys_id>c7747d100fe2630055498f8ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:20:32</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Data Sharing Request - Default view" name="x_15401_data_gover_data_sharig_request" related_list="NULL" sys_domain="global" view="Default view">4b747d100fe2630055498f8ce1050e10</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_15401_data_gover_m2m_dsr_to_community.data_sharing_request</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:20:32</sys_created_on>
+            <sys_id>cb747d100fe2630055498f8ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:20:32</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Data Sharing Request - Default view</calculated_name>
+            <filter/>
+            <name>x_15401_data_gover_data_sharig_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:20:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b747d100fe2630055498f8ce1050e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Data Sharing Request - Default view</sys_name>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_ui_related_x_15401_data_gover_data_sharig_request_null</sys_update_name>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:20:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

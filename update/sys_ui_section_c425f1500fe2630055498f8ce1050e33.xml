@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Description" section_id="c425f1500fe2630055498f8ce1050e33" sys_domain="global" table="x_15401_data_gover_data_sharig_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scope_of_project</element>
+            <position>0</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:24:00</sys_created_on>
+            <sys_id>fd4575500fe2630055498f8ce1050eb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description" display_value="Description" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">c425f1500fe2630055498f8ce1050e33</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:24:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_of_project</element>
+            <position>1</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:24:00</sys_created_on>
+            <sys_id>714575500fe2630055498f8ce1050eb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description" display_value="Description" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">c425f1500fe2630055498f8ce1050e33</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:24:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_of_need</element>
+            <position>2</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:24:00</sys_created_on>
+            <sys_id>f14575500fe2630055498f8ce1050eb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description" display_value="Description" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">c425f1500fe2630055498f8ce1050e33</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:24:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Description</caption>
+            <header>false</header>
+            <name>x_15401_data_gover_data_sharig_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 04:23:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c425f1500fe2630055498f8ce1050e33</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Description</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_ui_section_c425f1500fe2630055498f8ce1050e33</sys_update_name>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 04:24:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

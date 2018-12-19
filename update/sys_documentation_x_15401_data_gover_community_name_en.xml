@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name" label="Name" language="en" table="x_15401_data_gover_community">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <help/>
+            <hint/>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_15401_data_gover_community</name>
+            <plural>Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2018-12-19 02:44:06</sys_created_on>
+            <sys_id>226e55d00fa2630055498f8ce1050e8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name</sys_name>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_documentation_x_15401_data_gover_community_name_en</sys_update_name>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2018-12-19 02:44:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
