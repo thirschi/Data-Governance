@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Additional Data Field on DSA" language="en" table="x_15401_data_gover_m2m_additional_df_to_dsa">
+    <sys_documentation element="" label="Additional Data Field on Agreement" language="en" table="x_15401_data_gover_m2m_additional_df_to_dsa">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Additional Data Field on DSA</label>
+            <label>Additional Data Field on Agreement</label>
             <language>en</language>
             <name>x_15401_data_gover_m2m_additional_df_to_dsa</name>
-            <plural>Additional Data Field on DSAs</plural>
+            <plural>Additional Data Field on Agreements</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>thirschi</sys_created_by>
             <sys_created_on>2018-12-18 00:40:32</sys_created_on>
             <sys_id>728833330f96230055498f8ce1050e59</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Additional Data Field on DSA</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Additional Data Field on Agreement</sys_name>
             <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
             <sys_policy/>
             <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
             <sys_update_name>sys_documentation_x_15401_data_gover_m2m_additional_df_to_dsa__en</sys_update_name>
             <sys_updated_by>thirschi</sys_updated_by>
-            <sys_updated_on>2018-12-18 00:41:36</sys_updated_on>
+            <sys_updated_on>2019-01-08 00:17:51</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Data Sharing Request to Policy" max_length="40" name="x_15401_data_gover_m2m_dsr_to_policy" type="collection">
-        <element label="Data Sharing Agreement" max_length="32" name="data_sharing_agreement" reference="x_15401_data_gover_data_sharing_agreement" type="reference"/>
+    <element label="Request to Policy" max_length="40" name="x_15401_data_gover_m2m_dsr_to_policy" type="collection">
+        <element label="Data Sharing Request" max_length="32" name="data_sharing_request" reference="x_15401_data_gover_data_sharig_request" type="reference"/>
         <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
         <index name="index">
-            <element name="data_sharing_agreement"/>
+            <element name="data_sharing_request"/>
         </index>
         <index name="index2">
             <element name="policy"/>

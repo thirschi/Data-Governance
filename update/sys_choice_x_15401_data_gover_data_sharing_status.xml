@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_15401_data_gover_data_sharing" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>10</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 00:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b94584320f72230055498f8ce1050e0d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:51:07</sys_updated_on>
+            <value>Draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>20</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 00:56:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c65ccfe0f32230055498f8ce1050e14</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:51:14</sys_updated_on>
+            <value>Submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>30</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 00:57:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5885c0be0f32230055498f8ce1050e45</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:53:25</sys_updated_on>
+            <value>Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>40</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 00:59:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6b5c0be0f32230055498f8ce1050e46</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:53:29</sys_updated_on>
+            <value>Approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Provisioning</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>50</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 00:59:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b13648f20f72230055498f8ce1050e2d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:53:36</sys_updated_on>
+            <value>Provisioning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>60</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 00:59:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e95684fe0f32230055498f8ce1050eeb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:53:40</sys_updated_on>
+            <value>Complete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>70</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 01:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb56ccfe0f32230055498f8ce1050e16</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:53:46</sys_updated_on>
+            <value>Rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sequence>80</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 01:00:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e6648f20f72230055498f8ce1050eb9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-12 23:53:51</sys_updated_on>
+            <value>Cancelled</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_15401_data_gover_data_sharing</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-01-08 00:55:35</sys_created_on>
+            <sys_id>ff5544320f72230055498f8ce1050e59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_choice_x_15401_data_gover_data_sharing_status</sys_update_name>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-01-08 00:55:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
