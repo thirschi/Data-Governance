@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_search_source">
+    <sp_search_source action="INSERT_OR_UPDATE">
+        <advanced_typeahead_config>true</advanced_typeahead_config>
+        <condition/>
+        <data_fetch_script><![CDATA[(function(query) {
+	var results = [];
+	
+	//TODO:Need to do a contains as well
+	var apis = new GlideRecord("x_15401_data_gover_api");
+	//apis.addQuery('123TEXTQUERY321', query);
+	apis.addQuery('active', true);
+	apis.setLimit(data.limit);
+	apis.query();
+	while (apis.next()) {
+		var api = {}; 
+		api.name = apis.name;
+		api.description = apis.description;
+		results.push(api);
+		//gs.log("Hello");
+	}
+
+	$sp.logSearch('data_governance_api', query, apis.getRowCount(), data.searchType);	
+
+	return results;
+})(query);
+]]></data_fetch_script>
+        <display_fields>name,description</display_fields>
+        <enable_typeahead>true</enable_typeahead>
+        <facet_generation_script><![CDATA[(function(query, facetService, searchResults) {
+	/* Calculate your facets here using facetService */
+	/* var stateFacet = facetService.createFacet('State', 'state'); */
+	/* stateFacet.addFacetItem('Facet Item Label', '123'); */
+
+})(query, facetService, searchResults);]]></facet_generation_script>
+        <id>api_search</id>
+        <is_scripted_source>true</is_scripted_source>
+        <name>API Search</name>
+        <page/>
+        <pagination_supported>true</pagination_supported>
+        <primary_display_field>name</primary_display_field>
+        <roles/>
+        <search_page_template><![CDATA[<div>
+  <a href="?id=form&sys_id={{item.sys_id}}&table={{item.table}}" class="h4 text-primary m-b-sm block">
+    <span ng-bind-html="highlight(item.primary, data.q)"></span>
+  </a>
+  <span class="text-muted" ng-repeat="f in item.fields">
+    <span class="m-l-xs m-r-xs" ng-if="!$first"> &middot; </span>
+    {{f.label}}: <span ng-bind-html="highlight(f.display_value, data.q)"></span>
+  </span>
+</div>]]></search_page_template>
+        <source_table>x_15401_data_gover_api</source_table>
+        <sys_class_name>sp_search_source</sys_class_name>
+        <sys_created_by>jeremy</sys_created_by>
+        <sys_created_on>2019-02-20 17:30:37</sys_created_on>
+        <sys_id>e355893c0f73230055498f8ce1050ee8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>API Search</sys_name>
+        <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+        <sys_update_name>sp_search_source_e355893c0f73230055498f8ce1050ee8</sys_update_name>
+        <sys_updated_by>thirschi</sys_updated_by>
+        <sys_updated_on>2019-02-21 04:37:40</sys_updated_on>
+        <typeahead_glyph>bolt</typeahead_glyph>
+        <typeahead_template><![CDATA[<span ng-bind-html="match.model.name | limitTo: 30 | uibTypeaheadHighlight:query"></span>{{match.model.name.length > 30 ? '...' : ''}}
+<span class="m-l-xs m-r-xs" aria-hidden="true"> &middot; </span>
+<span class="text-muted" ng-bind-html="match.model.name + ' ➚' | uibTypeaheadHighlight:query"></span>]]></typeahead_template>
+    </sp_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=e355893c0f73230055498f8ce1050ee8"/>
+</record_update>

@@ -32,12 +32,15 @@
 	var recordToMany = new x_15401_data_gover.InsertRecordsIntoManyTable();
 	//Insert Policies that are active and apply to all
 	recordToMany.insertEncodedRecords('x_15401_data_gover_policy', 'apply_to_all=true^active=true', 'x_15401_data_gover_m2m_dsr_to_policy', 'data_sharing_request', 'policy', current.getValue('sys_id'), "policy");
+	//Insert Policies that have Communities involved in the DSR
 	recordToMany.insertEncodedRecords('x_15401_data_gover_m2m_dsr_to_community', 'community.policyISNOTEMPTY^data_sharing_request.sys_id=' + current.getValue('sys_id'), 'x_15401_data_gover_m2m_dsr_to_policy', 'data_sharing_request', 'community', current.getValue('sys_id'), 'community');
-	//TODO:Query other tables to see if more policies need to be added
+	//Insert Policies that are based on data fields
+	recordToMany.insertEncodedRecords('x_15401_data_gover_m2m_required_df_to_dsr', 'data_field.policyISNOTEMPTY^data_sharing_request.sys_id=' + current.getValue('sys_id'), 'x_15401_data_gover_m2m_dsr_to_policy', 'data_sharing_request', 'data_field', current.getValue('sys_id'));
 	//Find all the Communities Involved in the DSR that are required
 	recordToMany.insertRecords('x_15401_data_gover_m2m_required_df_to_dsr', 'x_15401_data_gover_m2m_dsr_to_community', 'data_sharing_request', current.getValue('sys_id'), 'data_sharing_request', 'community', 'data_field.community.sys_id');
 	//Find all the Communities Involved in the DSR by Additional Fields
 	recordToMany.insertRecords('x_15401_data_gover_m2m_additional_df_to_dsr', 'x_15401_data_gover_m2m_dsr_to_community', 'data_sharing_request', current.getValue('sys_id'), 'data_sharing_request', 'community', 'data_field.community.sys_id');
+	//TODO:Add API Policy as well
 	
 
 })(current, previous);]]></script>
@@ -47,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>413e7fae0f32230055498f8ce1050ead</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Attach Info to DSR</sys_name>
         <sys_overrides/>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
@@ -55,7 +58,7 @@
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
         <sys_update_name>sys_script_413e7fae0f32230055498f8ce1050ead</sys_update_name>
         <sys_updated_by>thirschi</sys_updated_by>
-        <sys_updated_on>2019-01-26 18:14:44</sys_updated_on>
+        <sys_updated_on>2019-01-31 03:34:47</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

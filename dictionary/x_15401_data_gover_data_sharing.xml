@@ -25,12 +25,15 @@
             <element name="requester"/>
         </index>
         <index name="index2">
-            <element name="sponsor"/>
+            <element name="name"/>
         </index>
         <index name="index3">
-            <element name="development_group"/>
+            <element name="sponsor"/>
         </index>
         <index name="index4">
+            <element name="development_group"/>
+        </index>
+        <index name="index5">
             <element name="name"/>
         </index>
     </element>

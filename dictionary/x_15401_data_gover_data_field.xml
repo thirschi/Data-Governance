@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Data Field" max_length="40" name="x_15401_data_gover_data_field" type="collection">
+    <element label="Data Field" max_length="40" name="x_15401_data_gover_data_field" text_index="true" type="collection">
         <element choice="1" label="Classification" max_length="40" name="classification" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Confidential" value="Confidential"/>
+                <element inactive_on_update="false" label="Highly Confidential" value="Highly Confidential"/>
+                <element inactive_on_update="false" label="Internal" value="Internal"/>
+                <element inactive_on_update="false" label="Public" value="Public"/>
+            </choice>
         </element>
         <element label="Community" max_length="32" name="community" reference="x_15401_data_gover_community" type="reference"/>
-        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
         <element label="Requestable" max_length="40" name="requestable" type="boolean"/>

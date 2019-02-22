@@ -53,17 +53,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>thirschi</sys_created_by>
         <sys_created_on>2018-12-13 00:05:50</sys_created_on>
-        <sys_id>f9949ef30f92230055498f8ce1050ef9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>e5d324f40fd7630055498f8ce1050e29</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_15401_data_gover_data_field</sys_name>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
-        <sys_update_name>sys_dictionary_x_15401_data_gover_data_field_NULL</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-12-17 17:23:59</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_15401_data_gover_data_field_null</sys_update_name>
+        <sys_updated_by>jeremy</sys_updated_by>
+        <sys_updated_on>2019-02-14 19:26:48</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>false</text_index>
+        <text_index>true</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
