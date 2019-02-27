@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="cb41d0220fb3a30055498f8ce1050edc" sys_domain="global" table="x_15401_data_gover_m2m_required_df_to_dsr" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-26 00:12:00</sys_created_on>
+            <sys_id>8f41d0220fb3a30055498f8ce1050ee1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15401_data_gover_m2m_required_df_to_dsr" sys_domain="global" view="Default view">cb41d0220fb3a30055498f8ce1050edc</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-26 00:12:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_field</element>
+            <position>1</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-26 00:12:00</sys_created_on>
+            <sys_id>0741d0220fb3a30055498f8ce1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15401_data_gover_m2m_required_df_to_dsr" sys_domain="global" view="Default view">cb41d0220fb3a30055498f8ce1050edc</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-26 00:12:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-26 00:12:00</sys_created_on>
+            <sys_id>8741d0220fb3a30055498f8ce1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15401_data_gover_m2m_required_df_to_dsr" sys_domain="global" view="Default view">cb41d0220fb3a30055498f8ce1050edc</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-26 00:12:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_sharing_request</element>
+            <position>3</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-26 00:12:00</sys_created_on>
+            <sys_id>0b41d0220fb3a30055498f8ce1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15401_data_gover_m2m_required_df_to_dsr" sys_domain="global" view="Default view">cb41d0220fb3a30055498f8ce1050edc</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-26 00:12:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-26 00:12:00</sys_created_on>
+            <sys_id>8b41d0220fb3a30055498f8ce1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15401_data_gover_m2m_required_df_to_dsr" sys_domain="global" view="Default view">cb41d0220fb3a30055498f8ce1050edc</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-26 00:12:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_15401_data_gover_m2m_required_df_to_dsr</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-26 00:12:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb41d0220fb3a30055498f8ce1050edc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15401_data_gover_m2m_required_df_to_dsr</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_ui_section_cb41d0220fb3a30055498f8ce1050edc</sys_update_name>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-26 00:12:00</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

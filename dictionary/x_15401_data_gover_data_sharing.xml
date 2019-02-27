@@ -21,6 +21,7 @@
             </choice>
         </element>
         <element label="Watch List" max_length="4000" name="watch_list" reference="sys_user" type="glide_list"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>
         <index name="index">
             <element name="requester"/>
         </index>

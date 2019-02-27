@@ -28,6 +28,34 @@
             <sys_updated_by>thirschi</sys_updated_by>
             <sys_updated_on>2018-12-19 04:23:20</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-27 04:51:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4ead6ba0f33e30055498f8ce1050e69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_15401_data_gover_data_sharig_request" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">0425f1500fe2630055498f8ce1050e34</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">e8ead6ba0f33e30055498f8ce1050e65</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-27 04:51:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-27 04:51:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64ead6ba0f33e30055498f8ce1050eac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_15401_data_gover_data_sharig_request" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">0425f1500fe2630055498f8ce1050e34</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">e4ead6ba0f33e30055498f8ce1050e66</sys_ui_section>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-27 04:51:36</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_15401_data_gover_data_sharig_request</name>
             <roles/>

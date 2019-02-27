@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_15401_data_gover_api" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_15401_data_gover_api" element="NULL" name="x_15401_data_gover_api" parent="NULL" relationship="NULL" sys_domain="global" view="1f272152bc002300aadb875973a34b56">be61c5590f77230055498f8ce1050e67</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-22 06:29:50</sys_created_on>
+            <sys_id>7a61c5590f77230055498f8ce1050e68</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-22 06:29:50</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_15401_data_gover_api</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-02-22 06:29:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be61c5590f77230055498f8ce1050e67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15401_data_gover_api</sys_name>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_ui_list_x_15401_data_gover_api_sys_ref_list</sys_update_name>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-02-22 06:29:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">1f272152bc002300aadb875973a34b56</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

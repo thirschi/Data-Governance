@@ -40,14 +40,14 @@ $text-muted:#9aabb9;
         <sys_created_by>jeremy</sys_created_by>
         <sys_created_on>2019-02-14 04:01:19</sys_created_on>
         <sys_id>f78257ae0f6f630055498f8ce1050e20</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_name>Data Governance Portal</sys_name>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
         <sys_update_name>sp_portal_f78257ae0f6f630055498f8ce1050e20</sys_update_name>
         <sys_updated_by>jeremy</sys_updated_by>
-        <sys_updated_on>2019-02-14 18:45:41</sys_updated_on>
+        <sys_updated_on>2019-02-22 17:00:18</sys_updated_on>
         <theme display_value="Data Governance Theme">2cacb1f20f27a30055498f8ce1050e30</theme>
         <title>Data Governance Portal</title>
         <url_suffix>dgp</url_suffix>
