@@ -52,7 +52,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_15401_data_gover_data_sharig_request" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">0425f1500fe2630055498f8ce1050e34</sys_ui_form>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">e4ead6ba0f33e30055498f8ce1050e66</sys_ui_section>
+            <sys_ui_section caption="Audit" display_value="Audit" name="x_15401_data_gover_data_sharig_request" sys_domain="global" view="Default view">e4ead6ba0f33e30055498f8ce1050e66</sys_ui_section>
             <sys_updated_by>thirschi</sys_updated_by>
             <sys_updated_on>2019-02-27 04:51:36</sys_updated_on>
         </sys_ui_form_section>

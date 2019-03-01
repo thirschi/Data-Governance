@@ -22,10 +22,10 @@ $btn-default-bg:#fff;
 $text-muted:#9aabb9;
 </css_variables>
         <default>false</default>
-        <homepage/>
+        <homepage display_value="dgp_home">7383b14f0f3be30055498f8ce1050ec0</homepage>
         <icon/>
         <kb_knowledge_base/>
-        <kb_knowledge_page/>
+        <kb_knowledge_page display_value="dgp_knowledge_base">f336f18f0f3be30055498f8ce1050e4f</kb_knowledge_page>
         <login_page/>
         <logo>44bc523a0f67a30055498f8ce1050e98</logo>
         <notfound_page/>
@@ -40,14 +40,14 @@ $text-muted:#9aabb9;
         <sys_created_by>jeremy</sys_created_by>
         <sys_created_on>2019-02-14 04:01:19</sys_created_on>
         <sys_id>f78257ae0f6f630055498f8ce1050e20</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>Data Governance Portal</sys_name>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
         <sys_update_name>sp_portal_f78257ae0f6f630055498f8ce1050e20</sys_update_name>
         <sys_updated_by>jeremy</sys_updated_by>
-        <sys_updated_on>2019-02-22 17:00:18</sys_updated_on>
+        <sys_updated_on>2019-02-27 21:27:23</sys_updated_on>
         <theme display_value="Data Governance Theme">2cacb1f20f27a30055498f8ce1050e30</theme>
         <title>Data Governance Portal</title>
         <url_suffix>dgp</url_suffix>

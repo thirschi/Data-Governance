@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>dgp_directory</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>jeremy</sys_created_by>
+        <sys_created_on>2019-02-27 20:45:09</sys_created_on>
+        <sys_id>2825790f0f3be30055498f8ce1050e8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dgp_directory</sys_name>
+        <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+        <sys_update_name>sp_page_2825790f0f3be30055498f8ce1050e8a</sys_update_name>
+        <sys_updated_by>jeremy</sys_updated_by>
+        <sys_updated_on>2019-02-27 20:45:09</sys_updated_on>
+        <title>DGP Directory</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=2825790f0f3be30055498f8ce1050e8a"/>
+</record_update>
