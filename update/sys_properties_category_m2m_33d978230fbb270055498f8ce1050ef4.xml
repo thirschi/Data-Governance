@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Data Governance Properties">963970630fbb270055498f8ce1050e38</category>
+        <order>100</order>
+        <property display_value="glide.ui.x_15401_data_gover_data_sharig_request_activity.fields" name="glide.ui.x_15401_data_gover_data_sharig_request_activity.fields">f55e1a7a0f33e30055498f8ce1050e42</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>thirschi</sys_created_by>
+        <sys_created_on>2019-03-01 05:43:11</sys_created_on>
+        <sys_id>33d978230fbb270055498f8ce1050ef4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_15401_data_gover_data_sharig_request_activity.fields.Data Governance Properties</sys_name>
+        <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_33d978230fbb270055498f8ce1050ef4</sys_update_name>
+        <sys_updated_by>thirschi</sys_updated_by>
+        <sys_updated_on>2019-03-01 05:43:11</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
