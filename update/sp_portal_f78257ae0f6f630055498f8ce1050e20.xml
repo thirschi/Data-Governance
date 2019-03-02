@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables>$brand-primary:#193446;
-$body-bg:#c4d4e0;
+        <css_variables>$brand-primary:#08708a;
+$body-bg:#d0d3c5;
 $state-success-text:#83d883;
 $sp-homepage-bg:#fff;
-$sp-navbar-divider-color:#e2b49a;
+$sp-navbar-divider-color:#d73a31;
 $text-color:#717171;
 $sp-logo-margin-y:.5rem;
 $navbar-inverse-link-hover-color:#ffffff;
 $panel-bg:#fff;
 $brand-success:#83d883;
-$navbar-inverse-bg:#193446;
+$navbar-inverse-bg:#032b2f;
 $brand-warning:#e9c77b;
-$brand-danger:#e2b49a;
+$brand-danger:#d73a31;
 $sp-tagline-color:#717171;
-$navbar-inverse-link-color:#c4d4e0;
-$brand-info:#9aabb9;
+$navbar-inverse-link-color:#f6f7fa;
+$brand-info:#56b1bf;
 $link-color:#428bca;
 $sp-logo-margin-x:1rem;
 $btn-default-bg:#fff;
@@ -40,14 +40,14 @@ $text-muted:#9aabb9;
         <sys_created_by>jeremy</sys_created_by>
         <sys_created_on>2019-02-14 04:01:19</sys_created_on>
         <sys_id>f78257ae0f6f630055498f8ce1050e20</sys_id>
-        <sys_mod_count>73</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_name>Data Governance Portal</sys_name>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
         <sys_update_name>sp_portal_f78257ae0f6f630055498f8ce1050e20</sys_update_name>
         <sys_updated_by>jeremy</sys_updated_by>
-        <sys_updated_on>2019-02-27 21:27:23</sys_updated_on>
+        <sys_updated_on>2019-03-02 04:01:12</sys_updated_on>
         <theme display_value="Data Governance Theme">2cacb1f20f27a30055498f8ce1050e30</theme>
         <title>Data Governance Portal</title>
         <url_suffix>dgp</url_suffix>
