@@ -1,5 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_15401_data_gover_data_sharing" label="Data Sharing Request" max_length="40" name="x_15401_data_gover_data_sharig_request" type="collection">
-        <element label="Application Description" max_length="40" name="application_description" type="string"/>
-    </element>
+    <element audit="true" extends="x_15401_data_gover_data_sharing" label="Data Sharing Request" max_length="40" name="x_15401_data_gover_data_sharig_request" type="collection"/>
 </database>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Data Sharing" max_length="40" name="x_15401_data_gover_data_sharing" type="collection">
+        <element label="Application Description" max_length="40" name="application_description" type="string"/>
         <element label="Application Name" max_length="40" name="application_name" type="string"/>
         <element label="Description of Need" max_length="4000" name="description_of_need" type="html"/>
         <element label="Description of Project" max_length="4000" name="description_of_project" type="html"/>
