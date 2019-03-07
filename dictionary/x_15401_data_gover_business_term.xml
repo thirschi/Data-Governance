@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Business Term" max_length="40" name="x_15401_data_gover_business_term" type="collection">
+        <element label="Community" max_length="32" name="community" reference="x_15401_data_gover_community" type="reference"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element default="true" label="Requestable" max_length="40" name="requestable" type="boolean"/>
+        <element default="javascript:current.name.replaceAll(&quot;\\s&quot;, &quot;_&quot;).toLowerCase();" label="Standard Name" max_length="60" name="standard_name" read_only="true" type="string"/>
+        <index name="index">
+            <element name="community"/>
+        </index>
+    </element>
+</database>

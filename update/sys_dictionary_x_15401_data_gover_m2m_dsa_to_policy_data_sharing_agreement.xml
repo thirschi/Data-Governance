@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="standard_name" table="x_15401_data_gover_data_field">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="data_sharing_agreement" table="x_15401_data_gover_m2m_dsa_to_policy">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Standard Name</column_label>
+        <column_label>Data Sharing Agreement</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,20 +22,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>standard_name</element>
+        <element>data_sharing_agreement</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_15401_data_gover_data_field</name>
+        <max_length>32</max_length>
+        <name>x_15401_data_gover_m2m_dsa_to_policy</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_15401_data_gover_data_sharing_agreement">x_15401_data_gover_data_sharing_agreement</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>thirschi</sys_created_by>
-        <sys_created_on>2018-12-13 00:10:02</sys_created_on>
-        <sys_id>69d324f40fd7630055498f8ce1050e33</sys_id>
+        <sys_created_on>2019-03-05 00:58:31</sys_created_on>
+        <sys_id>fc1fdcb40f48f70055498f8ce1050e40</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Standard Name</sys_name>
+        <sys_name>Data Sharing Agreement</sys_name>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
-        <sys_update_name>sys_dictionary_x_15401_data_gover_data_field_standard_name</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-01-26 18:32:27</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_15401_data_gover_m2m_dsa_to_policy_data_sharing_agreement</sys_update_name>
+        <sys_updated_by>thirschi</sys_updated_by>
+        <sys_updated_on>2019-03-05 00:58:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
