@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Policy on Classification" language="en" table="x_15401_data_gover_m2m_classifications_policies">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Policy on Classification</label>
+            <language>en</language>
+            <name>x_15401_data_gover_m2m_classifications_policies</name>
+            <plural>Policy on Classifications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jeremy</sys_created_by>
+            <sys_created_on>2019-03-08 01:50:32</sys_created_on>
+            <sys_id>c4c7403d0f8c7b0055498f8ce1050eac</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Policy on Classification</sys_name>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_documentation_x_15401_data_gover_m2m_classifications_policies__en</sys_update_name>
+            <sys_updated_by>jeremy</sys_updated_by>
+            <sys_updated_on>2019-03-08 01:51:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

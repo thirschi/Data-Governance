@@ -10,16 +10,7 @@
         <element label="Scope of Project" max_length="4000" name="scope_of_project" type="html"/>
         <element label="Sponsor" max_length="32" name="sponsor" reference="sys_user" type="reference"/>
         <element choice="3" label="Status" max_length="40" name="status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Draft" sequence="10" value="Draft"/>
-                <element inactive_on_update="false" label="Submitted" sequence="20" value="Submitted"/>
-                <element inactive_on_update="false" label="Approval" sequence="30" value="Approval"/>
-                <element inactive_on_update="false" label="Approved" sequence="40" value="Approved"/>
-                <element inactive_on_update="false" label="Provisioning" sequence="50" value="Provisioning"/>
-                <element inactive_on_update="false" label="Complete" sequence="60" value="Complete"/>
-                <element inactive_on_update="false" label="Rejected" sequence="70" value="Rejected"/>
-                <element inactive_on_update="false" label="Cancelled" sequence="80" value="Cancelled"/>
-            </choice>
+            <choice/>
         </element>
         <element label="Watch List" max_length="4000" name="watch_list" reference="sys_user" type="glide_list"/>
         <element label="Work Notes" max_length="4000" name="work_notes" type="journal_input"/>

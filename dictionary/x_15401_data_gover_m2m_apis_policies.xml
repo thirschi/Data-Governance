@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Policy on API" max_length="40" name="x_15401_data_gover_m2m_apis_policies" type="collection">
+        <element label="API" max_length="32" name="api" reference="x_15401_data_gover_api" type="reference"/>
+        <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
+        <index name="index">
+            <element name="api"/>
+        </index>
+        <index name="index2">
+            <element name="policy"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Policy on Business Term" max_length="40" name="x_15401_data_gover_m2m_business_terms_policies" type="collection">
+        <element label="Business Term" max_length="32" name="business_term" reference="x_15401_data_gover_business_term" type="reference"/>
+        <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
+        <index name="index">
+            <element name="business_term"/>
+        </index>
+        <index name="index2">
+            <element name="policy"/>
+        </index>
+    </element>
+</database>

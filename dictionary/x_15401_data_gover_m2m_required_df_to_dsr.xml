@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Required Data Field On DSR" max_length="40" name="x_15401_data_gover_m2m_required_df_to_dsr" type="collection">
+    <element label="Request to Required Data Field" max_length="40" name="x_15401_data_gover_m2m_required_df_to_dsr" type="collection">
         <element label="Data Field" max_length="32" name="data_field" reference="x_15401_data_gover_data_field" type="reference"/>
         <element label="Data Sharing Request" max_length="32" name="data_sharing_request" reference="x_15401_data_gover_data_sharig_request" type="reference"/>
         <index name="index">

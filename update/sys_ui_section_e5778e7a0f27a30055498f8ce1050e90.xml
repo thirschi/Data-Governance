@@ -140,6 +140,34 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>api</element>
+            <position>10</position>
+            <sys_created_by>jeremy</sys_created_by>
+            <sys_created_on>2019-03-08 01:41:43</sys_created_on>
+            <sys_id>b6b5c4b90f8c7b0055498f8ce1050e4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15401_data_gover_data_field" sys_domain="global" view="Default view">e5778e7a0f27a30055498f8ce1050e90</sys_ui_section>
+            <sys_updated_by>jeremy</sys_updated_by>
+            <sys_updated_on>2019-03-08 01:41:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>represents_business_term</element>
+            <position>11</position>
+            <sys_created_by>jeremy</sys_created_by>
+            <sys_created_on>2019-03-08 01:43:41</sys_created_on>
+            <sys_id>e32684b90f8c7b0055498f8ce1050eaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15401_data_gover_data_field" sys_domain="global" view="Default view">e5778e7a0f27a30055498f8ce1050e90</sys_ui_section>
+            <sys_updated_by>jeremy</sys_updated_by>
+            <sys_updated_on>2019-03-08 01:43:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

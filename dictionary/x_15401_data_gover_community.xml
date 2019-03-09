@@ -5,7 +5,6 @@
         <element label="Glossary" max_length="4000" name="glossary" reference="sys_user" type="glide_list"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element label="Parent" max_length="32" name="parent" reference="x_15401_data_gover_community" type="reference"/>
-        <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
         <element label="Steward" max_length="32" name="steward" reference="sys_user" type="reference"/>
         <element label="Trustee" max_length="32" name="trustee" reference="sys_user" type="reference"/>
         <index name="index">
@@ -19,9 +18,6 @@
         </index>
         <index name="index4">
             <element name="trustee"/>
-        </index>
-        <index name="index5">
-            <element name="policy"/>
         </index>
     </element>
 </database>

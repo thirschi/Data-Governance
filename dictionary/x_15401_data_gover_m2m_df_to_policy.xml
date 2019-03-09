@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Data Field On Policy" max_length="40" name="x_15401_data_gover_m2m_df_to_policy" type="collection">
+    <element label="Policy on Data Field" max_length="40" name="x_15401_data_gover_m2m_df_to_policy" type="collection">
         <element label="Data Field" max_length="32" name="data_field" reference="x_15401_data_gover_data_field" type="reference"/>
         <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
         <index name="index">

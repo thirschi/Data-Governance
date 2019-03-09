@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Data Field" max_length="40" name="x_15401_data_gover_data_field" text_index="true" type="collection">
+        <element label="API" max_length="32" name="api" reference="x_15401_data_gover_api" type="reference"/>
         <element choice="1" label="Classification" max_length="40" name="classification" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Confidential" value="Confidential"/>
@@ -10,9 +11,12 @@
         </element>
         <element label="Description" max_length="400" name="description" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
-        <element label="Policy" max_length="32" name="policy" reference="x_15401_data_gover_policy" type="reference"/>
+        <element label="Represents Business Term" max_length="32" name="represents_business_term" reference="x_15401_data_gover_business_term" type="reference"/>
         <index name="index">
-            <element name="policy"/>
+            <element name="represents_business_term"/>
+        </index>
+        <index name="index2">
+            <element name="api"/>
         </index>
     </element>
 </database>

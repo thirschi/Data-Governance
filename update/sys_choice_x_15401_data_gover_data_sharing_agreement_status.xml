@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_15401_data_gover_data_sharing_agreement" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custodian</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing_agreement</name>
+            <sequence>0</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-03-08 05:09:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20c4bcb50f00bb0055498f8ce1050e41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-03-08 05:09:46</sys_updated_on>
+            <value>Custodian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Steward</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing_agreement</name>
+            <sequence>1</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-03-08 05:10:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef65f0f50f00bb0055498f8ce1050e17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-03-08 05:10:07</sys_updated_on>
+            <value>Steward</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing_agreement</name>
+            <sequence>2</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-03-08 05:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc85f8b50f00bb0055498f8ce1050e78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-03-08 05:10:28</sys_updated_on>
+            <value>Approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing_agreement</name>
+            <sequence>3</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-03-08 05:10:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b9534f50f00bb0055498f8ce1050e07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-03-08 05:10:55</sys_updated_on>
+            <value>Rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_15401_data_gover_data_sharing_agreement</name>
+            <sequence>4</sequence>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-03-08 05:11:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6db534f50f00bb0055498f8ce1050e0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-03-08 05:11:20</sys_updated_on>
+            <value>Cancelled</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_15401_data_gover_data_sharing_agreement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>thirschi</sys_created_by>
+            <sys_created_on>2019-03-08 05:09:46</sys_created_on>
+            <sys_id>ea5534f50f00bb0055498f8ce1050e03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
+            <sys_update_name>sys_choice_x_15401_data_gover_data_sharing_agreement_status</sys_update_name>
+            <sys_updated_by>thirschi</sys_updated_by>
+            <sys_updated_on>2019-03-08 05:09:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
