@@ -3,37 +3,40 @@
         <active>true</active>
         <class_name/>
         <color>default</color>
-        <css>.about h2 {&#13;
-  font-size: 2.45em;&#13;
-  text-align: center;&#13;
-}&#13;
-.about .aboutBox {&#13;
-  display: inline-block;&#13;
-  width: 25%;&#13;
-  padding: 10px;&#13;
-  background-color: $brand-info;&#13;
-  color: #f6f7fa;&#13;
-  text-align: center;&#13;
-  border-radius: 15px;&#13;
-}&#13;
-.about .aboutBox .img-center-cover {&#13;
-  width: 7em;&#13;
-  height: 7em;&#13;
-  border-radius: 3.5em;&#13;
-  object-position: center;&#13;
-  object-fit: cover;&#13;
-}&#13;
-.about .aboutBox p {&#13;
-  font-size: 11px;&#13;
-}&#13;
-.about .aboutBox p a {&#13;
-  color: inherit;&#13;
-  text-decoration: underline;&#13;
-}&#13;
-.about .arrow {&#13;
-  display: inline-block;&#13;
-  width: 12%;&#13;
-  vertical-align: top;&#13;
+        <css>.vertical-align-center {
+  display: flex;
+  align-items: center;
+}
+.about h2 {
+  font-size: 2.45em;
+  text-align: center;
+}
+.about .aboutBox {
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+  background-color: $brand-info;
+  color: #f6f7fa;
+  text-align: center;
+  border-radius: 15px;
+}
+.about .aboutBox .img-center-cover {
+  width: 7em;
+  height: 7em;
+  border-radius: 3.5em;
+  object-position: center;
+  object-fit: cover;
+}
+.about .aboutBox p {
+  font-size: 11px;
+}
+.about .aboutBox p a {
+  color: inherit;
+  text-decoration: underline;
+}
+.about .arrow {
+  display: inline-block;
+  width: 12%;
 }</css>
         <glyph/>
         <id/>
@@ -47,20 +50,20 @@
         <sys_created_by>jeremy</sys_created_by>
         <sys_created_on>2019-03-03 06:11:00</sys_created_on>
         <sys_id>a66317440fc0b70055498f8ce1050e02</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
         <sys_update_name>sp_instance_a66317440fc0b70055498f8ce1050e02</sys_update_name>
         <sys_updated_by>jeremy</sys_updated_by>
-        <sys_updated_on>2019-03-03 08:29:50</sys_updated_on>
+        <sys_updated_on>2019-03-09 16:40:06</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"html": {
-		"value": "<div class=\"about\"><h2 class=\"text-center\">The Data Governance Process</h2><div class=\"aboutBox\"><img class=\"img-center-cover\"><h4>Find Data</h4><p>Search for what you need in our <a href=\"/dgp?id=dgp_browse\" data-mce-href=\"/dgp?id=dgp_browse\">catalog of APIs</a></p></div><img src=\"\" class=\"arrow\" data-mce-src=\"\"><div class=\"aboutBox\"><img class=\"img-center-cover\"><h4>Submit Request</h4><p><a href=\"/dgp?id=dgp_directory\" data-mce-href=\"/dgp?id=dgp_directory\">Our data stewards</a> will help you define an agreement</p></div><img src=\"\" class=\"arrow\" data-mce-src=\"\"><div class=\"aboutBox\"><img class=\"img-center-cover\"><h4>Consume Data</h4><p>Access our APIs with rights granted via <a href=\"/dgp?id=dgp_request_view\" data-mce-href=\"/dgp?id=dgp_request_view\">your requests</a></p></div></div>",
-		"displayValue": "<div class=\"about\">\n<h2 class=\"text-center\">The Data Governance Process</h2>\n<div class=\"aboutBox\"><img class=\"img-center-cover\" />\n<h4>Find Data</h4>\n<p>Search for what you need in our <a href=\"/dgp?id=dgp_browse\">catalog of APIs</a></p>\n</div>\n<img class=\"arrow\" />\n<div class=\"aboutBox\"><img class=\"img-center-cover\" />\n<h4>Submit Request</h4>\n<p><a href=\"/dgp?id=dgp_directory\">Our data stewards</a> will help you define an agreement</p>\n</div>\n<img class=\"arrow\" />\n<div class=\"aboutBox\"><img class=\"img-center-cover\" />\n<h4>Consume Data</h4>\n<p>Access our APIs with rights granted via <a href=\"/dgp?id=dgp_request_view\">your requests</a></p>\n</div>\n</div>"
+		"value": "<div class=\"about\"><h2 class=\"text-center\">The Data Governance Process</h2><div class=\"vertical-align-center\"><div class=\"aboutBox\"><img class=\"img-center-cover\"><h4>Find Data</h4><p>Search for what you need in our <a href=\"/dgp?id=dgp_browse\" data-mce-href=\"/dgp?id=dgp_browse\">catalog of APIs</a></p></div><img src=\"right-arrow-icon.png\" class=\"arrow\" data-mce-src=\"right-arrow-icon.png\"><div class=\"aboutBox\"><img class=\"img-center-cover\"><h4>Submit Request</h4><p><a href=\"/dgp?id=dgp_directory\" data-mce-href=\"/dgp?id=dgp_directory\">Our data stewards</a> will help you define an agreement</p></div><img src=\"right-arrow-icon.png\" class=\"arrow\" data-mce-src=\"right-arrow-icon.png\"><div class=\"aboutBox\"><img class=\"img-center-cover\"><h4>Consume Data</h4><p>Access our APIs with rights granted via <a href=\"/dgp?id=dgp_request_view\" data-mce-href=\"/dgp?id=dgp_request_view\">your requests</a></p></div></div></div>",
+		"displayValue": "<div class=\"about\">\n<h2 class=\"text-center\">The Data Governance Process</h2>\n<div class=\"vertical-align-center\">\n<div class=\"aboutBox\"><img class=\"img-center-cover\" />\n<h4>Find Data</h4>\n<p>Search for what you need in our <a href=\"/dgp?id=dgp_browse\">catalog of APIs</a></p>\n</div>\n<img class=\"arrow\" src=\"right-arrow-icon.png\" />\n<div class=\"aboutBox\"><img class=\"img-center-cover\" />\n<h4>Submit Request</h4>\n<p><a href=\"/dgp?id=dgp_directory\">Our data stewards</a> will help you define an agreement</p>\n</div>\n<img class=\"arrow\" src=\"right-arrow-icon.png\" />\n<div class=\"aboutBox\"><img class=\"img-center-cover\" />\n<h4>Consume Data</h4>\n<p>Access our APIs with rights granted via <a href=\"/dgp?id=dgp_request_view\">your requests</a></p>\n</div>\n</div>\n</div>"
 	}
 }]]></widget_parameters>
     </sp_instance>

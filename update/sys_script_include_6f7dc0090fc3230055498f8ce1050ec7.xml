@@ -25,8 +25,6 @@ InsertRecordsIntoManyTable.prototype = {
 		this.insertEncodedRecordsM2M('x_15401_data_gover_m2m_required_df_to_dsr', 'data_sharing_request.sys_id=' + sysId, 'x_15401_data_gover_data_field', 'x_15401_data_gover_m2m_dsr_to_community', 'data_sharing_request', 'community', sysId, 'data_field');
 		//Find all the Communities Involved in the DSR by Additional Fields
 		this.insertEncodedRecordsM2M('x_15401_data_gover_m2m_additional_df_to_dsr', 'data_sharing_request.sys_id=' + sysId, 'x_15401_data_gover_data_field', 'x_15401_data_gover_m2m_dsr_to_community', 'data_sharing_request', 'community', sysId, 'data_field');
-		//Insert Policies that have Communities involved in the DSR
-		this.insertEncodedRecordsM2M('x_15401_data_gover_m2m_dsr_to_community', 'community.policyISNOTEMPTY^community.policy.active=true^data_sharing_request.sys_id=' + sysId, 'x_15401_data_gover_community', 'x_15401_data_gover_m2m_dsr_to_policy', 'data_sharing_request', 'policy', sysId, 'community');
 	},
 	
 	//QueryTable = Table to get information form
@@ -73,7 +71,7 @@ InsertRecordsIntoManyTable.prototype = {
 			if(checkTable.get(lookup.getValue(lookupValue))) {
 				var addRecord = new GlideRecord(insertTable);
 				addRecord.addQuery(insertField, current);
-				addRecord.addQuery(insertField2, checkTable.getValue(insertField2));
+				addRecord.addQuery(insertField2, checkTable.getValue('sys_id'));
 				addRecord.query();
 				//Make sure we haven't inserted it already
 				if(addRecord.hasNext()) {
@@ -81,7 +79,7 @@ InsertRecordsIntoManyTable.prototype = {
 				}
 				addRecord.initialize();
 				addRecord.setValue(insertField, current);
-				addRecord.setValue(insertField2, checkTable.getValue(insertField2));
+				addRecord.setValue(insertField2, checkTable.getValue('sys_id'));
 				addRecord.insert();
 			}
 		}
@@ -93,13 +91,13 @@ InsertRecordsIntoManyTable.prototype = {
         <sys_created_by>thirschi</sys_created_by>
         <sys_created_on>2019-01-15 01:31:11</sys_created_on>
         <sys_id>6f7dc0090fc3230055498f8ce1050ec7</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>InsertRecordsIntoManyTable</sys_name>
         <sys_package display_value="Data Governance" source="x_15401_data_gover">b869600e0f12230055498f8ce1050e47</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Data Governance">b869600e0f12230055498f8ce1050e47</sys_scope>
         <sys_update_name>sys_script_include_6f7dc0090fc3230055498f8ce1050ec7</sys_update_name>
         <sys_updated_by>thirschi</sys_updated_by>
-        <sys_updated_on>2019-02-27 06:02:22</sys_updated_on>
+        <sys_updated_on>2019-03-15 05:44:44</sys_updated_on>
     </sys_script_include>
 </record_update>
